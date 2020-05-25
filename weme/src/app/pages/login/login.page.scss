@@ -1,0 +1,45 @@
+.background {
+    background-image: url(../../../assets/img/Login.png);
+    height: 100vh;
+}
+
+.femaleLogin {
+    position: relative;
+    margin-left: -110px;
+    top: 110px;
+}
+
+.loginBox {
+    margin-top: 130px;
+}
+
+.signin,
+.signup {
+    width: 223px;
+    height: 43px;
+    border-radius: 21.5px;
+
+    span {
+        text-transform: uppercase;
+    }
+}
+
+.signin {
+    background: #bebebe3d;
+    border: 2px solid #766ab6;
+    box-shadow: 2px 6px 22px rgba(117, 117, 117, 0.87);
+
+    span {
+        color: #766ab6;
+    }
+
+}
+
+.signup {
+    background: rgba(100, 85, 181, 0.8);
+    box-shadow: 2px 6px 22px rgba(117, 117, 117, 0.87);
+
+    span {
+        color: #fff;
+    }
+}

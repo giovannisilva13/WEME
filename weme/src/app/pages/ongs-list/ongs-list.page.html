@@ -1,0 +1,21 @@
+<ion-content>
+  <div class="background">
+    <div class="navBar">
+      <ion-icon class="ion-icon--menu" name="menu-outline"></ion-icon>
+      <ion-icon class="ion-icon--photo" name="person-circle-outline"></ion-icon>
+    </div>
+    <div class="container ion-text-center">
+      <ion-searchbar class="search" color="dark" placeholder="Pesquisar...">
+      </ion-searchbar>
+      <ion-list>
+        <ion-item *ngFor="let ong of ongs" (click)="getOngInfo(ong.id)">
+          <div class="card">
+            <span>{{ ong.name }}</span> <br>
+            <span class="address">{{ ong.address }}</span>
+            <p>{{ ong.description }}</p>
+          </div>
+        </ion-item>
+      </ion-list>
+    </div>
+  </div>
+</ion-content>

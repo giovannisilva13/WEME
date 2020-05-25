@@ -1,0 +1,26 @@
+<ion-content>
+  <div class="background">
+    <div class="container ion-text-center">
+      <div class="femaleLogin">
+        <img src="../../../assets/img/mulherLogin.png" alt="Mulher Login">
+      </div>
+    </div>
+    <div class="container ion-text-center loginBox">
+      <div class="row">
+        <ion-item>
+          <ion-input type="email" placeholder="Email" class="emailLogin" [(ngModel)]="userLogin.email"></ion-input>
+        </ion-item>
+      </div>
+      <div class="row">
+        <ion-item>
+          <ion-input type="password" placeholder="Senha" class="passLogin" [(ngModel)]="userLogin.password"></ion-input>
+        </ion-item>
+      </div>
+      <div class="row">
+        <ion-item>
+          <ion-button fill="clear" class="loginButton" (click)="login()"><span>ENTRAR</span></ion-button>
+        </ion-item>
+      </div>
+    </div>
+  </div>
+</ion-content>

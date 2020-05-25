@@ -1,0 +1,85 @@
+.background {
+    background-image: url(../../../assets/img/bgHome.png);
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.container {
+    margin-top: 220px;
+}
+
+
+ion-icon {
+    position: absolute;
+    top: 20px;
+    font-size: 50px;
+
+}
+
+.ion-icon--menu {
+    right: 100px;
+}
+
+.ion-icon--photo {
+    left: 100px;
+}
+
+.navBar {
+    position: relative;
+}
+
+ion-item,
+ion-list {
+    --background: transparent !important;
+    --border-color: none !important;
+    text-align: center;
+    padding-right: 30px;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.list-ios {
+    background: none;
+}
+
+.search {
+    margin: auto;
+    width: 80%;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px rgba(81, 81, 81, 0.21);
+    text-align: left;
+    width: 80vw;
+    margin: 10px 10px;
+    padding: 20px !important;
+
+    span:first-child {
+        font-weight: bold;
+        text-align: left;
+        color: #7064b0;
+
+    }
+
+    .address {
+        font-weight: 100;
+        text-align: right;
+        color: #7064b0;
+
+    }
+
+    p {
+        font-size: 12px;
+        font-weight: bold;
+        text-align: left;
+        color: #1f1f1f;
+    }
+}

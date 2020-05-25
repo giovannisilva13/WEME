@@ -1,0 +1,55 @@
+.background {
+    background-image: url(../../../assets/img/bgHome.png);
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    margin-top: 20%;
+}
+
+.nextMe,
+.needMore {
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px rgba(81, 81, 81, 0.21);
+    text-align: center;
+
+    span {
+        position: absolute;
+        bottom: 15px;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+        color: #7064b0;
+    }
+
+    img {
+        max-width: 120px;
+        margin-top: -40px;
+    }
+}
+
+.userName {
+    margin-top: 15%;
+}
+
+ion-icon {
+    position: absolute;
+    top: 20px;
+    font-size: 50px;
+
+}
+
+.ion-icon--menu {
+    left: 20px;
+}
+
+.ion-icon--photo {
+    right: 20px;
+}

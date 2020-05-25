@@ -1,0 +1,55 @@
+.background {
+    background-image: url(../../../assets/img/Login.png);
+    height: 100vh;
+}
+
+.femaleLogin {
+    position: relative;
+    margin-left: -110px;
+    top: 110px;
+}
+
+.loginBox {
+    margin-top: 130px;
+    text-align: center;
+}
+
+ion-item,
+ion-list,
+.list-ios {
+    --background: transparent !important;
+    --border-color: none !important;
+    text-align: center;
+    padding-right: 30px;
+    margin: 0;
+    padding-left: 10px;
+
+    ion-input {
+        --color: #fff !important;
+        --border-color: none !important;
+    }
+}
+
+
+.loginButton {
+    height: 43px;
+    width: 314px;
+    background: transparent;
+    border-radius: 21.5px;
+    border: 2px solid #766ab6;
+    margin-bottom: 10px;
+
+    span {
+        color: #766ab6;
+    }
+}
+
+
+.emailLogin,
+.passLogin {
+    background: #766ab6;
+    border-radius: 21.5px;
+    text-align: center;
+    border: 2px solid #766ab6;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,32 @@
+<ion-content>
+  <div class="background">
+    <div class="container ion-text-center signUpBox">
+      <div class="row">
+        <ion-item>
+          <ion-input type="text" placeholder="Nome Completo" class="nameSignup"></ion-input>
+        </ion-item>
+      </div>
+      <div class="row">
+        <ion-item>
+          <ion-input type="text" placeholder="Data de Nascimento" class="birthSignup"></ion-input>
+        </ion-item>
+      </div>
+      <div class="row">
+        <ion-item>
+          <ion-input type="email" placeholder="Email" class="emailSignup" [(ngModel)]="userRegister.email"></ion-input>
+        </ion-item>
+      </div>
+      <div class="row">
+        <ion-item>
+          <ion-input type="password" placeholder="Senha" class="phoneSignup" [(ngModel)]="userRegister.password">
+          </ion-input>
+        </ion-item>
+      </div>
+      <div class="row">
+        <ion-item>
+          <ion-button fill="clear" class="nextButton" (click)="register()"><span>CONCLUIR</span></ion-button>
+        </ion-item>
+      </div>
+    </div>
+  </div>
+</ion-content>

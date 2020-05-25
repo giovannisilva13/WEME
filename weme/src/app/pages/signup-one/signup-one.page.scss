@@ -1,0 +1,56 @@
+* {
+    border: none !important;
+    --border: none !important;
+}
+
+.background {
+    background-image: url(/assets/img/Login.png);
+    height: 100vh;
+}
+
+ion-item {
+    --background: transparent !important;
+    --border-color: none !important;
+    border: none !important;
+    text-align: center;
+    padding-right: 30px;
+    margin: 0;
+    padding-left: 10px;
+
+    item-inner {
+        --background: transparent !important;
+        --border-color: none !important;
+        border: none !important;
+    }
+}
+
+.signUpBox {
+    bottom: 20%;
+    position: absolute;
+    width: 100%;
+}
+
+.nameSignup,
+.birthSignup,
+.emailSignup,
+.phoneSignup {
+    background: rgb(180, 180, 180);
+    border-radius: 21.5px;
+    text-align: center;
+    border: 2px solid #766ab6;
+    margin-bottom: 30px;
+}
+
+.nextButton {
+    background: #fff;
+    border-radius: 21.5px;
+    text-align: center;
+    border: 2px solid #766ab6;
+    margin-bottom: 30px;
+    width: 100%;
+    height: 40px;
+
+    span {
+        color: #766ab6;
+    }
+}

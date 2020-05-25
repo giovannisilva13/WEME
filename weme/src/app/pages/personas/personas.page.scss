@@ -1,0 +1,28 @@
+.background {
+    background-image: url(/assets/img/bgPersonas.png);
+    height: 100vh;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.needHelp,
+.canHelp {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 0px 3px 6px rgba(81, 81, 81, 0.21);
+    text-align: center;
+
+    span {
+        position: absolute;
+        bottom: 20px;
+        font-weight: bold;
+        font-size: 24px;
+        text-align: center;
+        color: #7064b0;
+
+    }
+}
